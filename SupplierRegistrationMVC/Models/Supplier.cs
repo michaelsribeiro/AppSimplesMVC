@@ -18,7 +18,8 @@ namespace SupplierRegistrationMVC.Models
         [DisplayName("Documento CPF/CNPJ")]
         public string Document { get; set; }
 
-        public SupplierType SupplierType { get; private set; }
+        [DisplayName("Tipo de fornecedor")]
+        public SupplierType SupplierType { get; set; }
         public Address Address { get; set; }
 
 

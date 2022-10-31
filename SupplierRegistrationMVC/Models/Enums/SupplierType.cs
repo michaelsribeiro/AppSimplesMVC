@@ -2,7 +2,7 @@
 {
     public enum SupplierType
     {
-        Individual,
-        Corporation
+        Fisica,
+        Juridica
     }
 }
